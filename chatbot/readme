@@ -1,0 +1,10 @@
+HOW to Start:
+1. run streamlit app - streamlit run app.py
+2. run django server - python manage.py runserver
+3. open the streamlit app - http://localhost:8501/
+4. make sure django server is also running in the backgound terminal
+
+Techstack: Django Streamlit GeminiAPI 
+
+
+NOTE:i have directly hardcoded my api keys in the code so that its easier to use the application however i know its not a secured way. we usually setup .env variables for such secrete keys.
